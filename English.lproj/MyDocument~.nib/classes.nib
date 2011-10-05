@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {"perform_request" = id; }; 
+            CLASS = FormHandler; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "post_fields" = NSTextField; 
+                repeat = NSTextField; 
+                result = NSTextView; 
+                "url_name" = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MyDocument; LANGUAGE = ObjC; SUPERCLASS = NSPersistentDocument; }, 
+        {CLASS = NSPersistentDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }
+    ); 
+    IBVersion = 1; 
+}
